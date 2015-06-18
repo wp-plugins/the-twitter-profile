@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Display your full twitter profile in sidebar easily, responsive and retina, recent tweets and emoji icons support, RTL support and texts translate ready.
+Display your full twitter profile in sidebar easily, responsive and retina, recent tweets and emoji icons support, RTL support and texts translate.
 
 == Description ==
 
@@ -33,7 +33,7 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 * [http://j.mp/The_Twitter_Profile](http://j.mp/The_Twitter_Profile)
 
 ### Recent Tweets Extension
-* [Buy recent tweets extension for WP Twitter Profile plugin, the extension for $0.99 only.](http://j.mp/WPTime_Buy_TP_RTE)
+* [Buy recent tweets extension for Twitter Profile plugin, the extension for $0.99 only.](http://j.mp/WPTime_Buy_TP_RTE)
 
 ### Rate The Plugin
 
@@ -48,7 +48,7 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 
 ### About
 
-* [The plugin designed and developed by Alobaidi.](http://j.mp/1HVBgA6).
+* [The plugin designed and developed by Alobaidi.](http://j.mp/1HVBgA6)
 
 ### More Plugins
 
