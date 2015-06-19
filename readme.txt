@@ -4,7 +4,7 @@ Donate link: http://j.mp/WPTime_donations
 Tags: twitter profile, twitter api, recent tweets, recent, tweets, embed, embedding, profile, api, css3, jquery, retina, responsive, emoji, rtl, image, images, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments, shortcode
 Requires at least: 3.0.0
 Tested up to: 4.2.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,5 +77,8 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+Fixing some problems in CSS Font Icons.
+
+= 1.0.0 =
 First version.

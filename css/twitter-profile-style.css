@@ -283,7 +283,7 @@ h5.wpt-tp-screen-name{
 
 .wpt-tp-content ul li.wpt-tp-tweets:before, a.wpt-tp-tweets:before{
 	display:inline-block !important;
-	font-family:"fontello";
+	font-family:"fontello twitter profile plugin by Alobaidi";
 	content:"\e804";
 	padding-right:5px;
 	color:#3B94D9 !important;
@@ -291,7 +291,7 @@ h5.wpt-tp-screen-name{
 
 .wpt-tp-content ul li.wpt-tp-location:before{
 	display:inline-block !important;
-	font-family:"fontello";
+	font-family:"fontello twitter profile plugin by Alobaidi";
 	content:"\e802";
 	padding-right:5px;
 	color:#66757f !important;
@@ -299,7 +299,7 @@ h5.wpt-tp-screen-name{
 
 .wpt-tp-content ul li.wpt-tp-url:before{
 	display:inline-block !important;
-	font-family:"fontello";
+	font-family:"fontello twitter profile plugin by Alobaidi";
 	content:"\e800";
 	padding-right:5px;
 	color:#66757f !important;
@@ -307,7 +307,7 @@ h5.wpt-tp-screen-name{
 
 .wpt-tp-content ul li.wpt-tp-joined:before{
 	display:inline-block !important;
-	font-family:"fontello";
+	font-family:"fontello twitter profile plugin by Alobaidi";
 	content:"\e801";
 	padding-right:5px;
 	color:#66757f !important;

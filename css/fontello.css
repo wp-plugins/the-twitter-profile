@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'fontello';
+  font-family: 'fontello twitter profile plugin by Alobaidi';
   src: url('../font/fontello.eot?19265947');
   src: url('../font/fontello.eot?19265947#iefix') format('embedded-opentype'),
        url('../font/fontello.woff?19265947') format('woff'),
@@ -20,7 +20,7 @@
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "fontello twitter profile plugin by Alobaidi";
   font-style: normal;
   font-weight: normal;
   speak: none;
