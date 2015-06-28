@@ -1,5 +1,7 @@
 <?php
 
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 // Twitter Profile Widget
 class WPTimeTwitterProfileWidget extends WP_Widget {
 	function WPTimeTwitterProfileWidget() {
@@ -171,7 +173,7 @@ class WPTimeTwitterProfileWidget extends WP_Widget {
 								}
 								
 							}else{
-								$tweets_count = null;
+								$tweets_count = 0;
 							}
 							
 							if( !empty($result['user']['followers_count']) ){
@@ -203,7 +205,7 @@ class WPTimeTwitterProfileWidget extends WP_Widget {
 								}
 								
 							}else{
-								$followers_count = null;
+								$followers_count = 0;
 							}
 							
 							if( !empty($result['user']['friends_count']) ){
@@ -235,7 +237,7 @@ class WPTimeTwitterProfileWidget extends WP_Widget {
 								}
 								
 							}else{
-								$following_count = null;
+								$following_count = 0;
 							}
 							
 							if( !empty($result['user']['screen_name']) ){

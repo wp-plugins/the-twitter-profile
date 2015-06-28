@@ -3,7 +3,7 @@
 Plugin Name: The Twitter Profile
 Plugin URI: http://j.mp/The_Twitter_Profile
 Description: Display your full twitter profile in sidebar easily, responsive and retina, recent tweets and emoji icons support, RTL support and texts translate ready.
-Version: 1.0.1
+Version: 1.0.2
 Author: Alobaidi
 Author URI: http://j.mp/1HVBgA6
 License: GPLv2 or later
@@ -25,6 +25,8 @@ License: GPLv2 or later
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 
 // Require Once Twitter OAuth
 require_once( plugin_dir_path( __FILE__ ) . '/Alobaidi.TwitterOAuth.php' );
@@ -35,10 +37,16 @@ include( plugin_dir_path( __FILE__ ) . '/settings.php' );
 
 
 // Include CSS Style An JavaScript
-function WPTime_twitter_profile_include_css_and_js(){		
+function WPTime_twitter_profile_include_css_and_js(){	
+
+    if( !get_option('wpt_tp_disable_font') ){
+        wp_enqueue_style( 'wpt-twitter-font-style', plugins_url( '/css/font-style.css', __FILE__ ), false, null);
+    }
+
 	wp_enqueue_style( 'wpt-twitter-profile-style', plugins_url( '/css/twitter-profile-style.css', __FILE__ ), false, null);
 	wp_enqueue_style( 'wpt-twitter-profile-fontello', plugins_url( '/css/fontello.css', __FILE__ ), false, null);
 	wp_enqueue_script( 'wpt-twitter-profile-script', plugins_url( '/js/twitter-profile-script.js', __FILE__ ), array('jquery'), null, false);
+
 }
 add_action('wp_enqueue_scripts', 'WPTime_twitter_profile_include_css_and_js');
 
@@ -60,5 +68,55 @@ add_action('wp_head', 'WPTime_twitter_profile_remove_emoji_css');
 
 // Include Twitter Profile Widget
 include( plugin_dir_path( __FILE__ ) . '/widget.php' );
+
+
+// Add plugin meta links
+function WPTime_twitter_profile_plugin_row_meta( $links, $file ) {
+
+	if ( strpos( $file, 'the-twitter-profile.php' ) !== false ) {
+		
+		$new_links = array(
+						'<a href="http://j.mp/The_Twitter_Profile" target="_blank">Explanation Of Use</a>',
+						'<a href="http://j.mp/WPTime_Buy_TP_RTE" target="_blank">Buy Recent Tweets Extension</a>',
+						'<a href="https://profiles.wordpress.org/alobaidi#content-plugins" target="_blank">More Plugins</a>',
+					);
+		
+		$links = array_merge( $links, $new_links );
+		
+	}
+	
+	return $links;
+	
+}
+add_filter( 'plugin_row_meta', 'WPTime_twitter_profile_plugin_row_meta', 10, 2 );
+
+
+// Add settings page link in before activate/deactivate links.
+function WPTime_twitter_profile_plugin_action_links( $actions, $plugin_file ){
+	
+	static $plugin;
+
+	if ( !isset($plugin) ){
+		$plugin = plugin_basename(__FILE__);
+	}
+		
+	if ($plugin == $plugin_file) {
+		
+		if ( is_ssl() ) {
+			$settings_link = '<a href="'.admin_url( 'plugins.php?page=WPTime_twitter_profile_settings', 'https' ).'">Settings</a>';
+		}else{
+			$settings_link = '<a href="'.admin_url( 'plugins.php?page=WPTime_twitter_profile_settings', 'http' ).'">Settings</a>';
+		}
+		
+		$settings = array($settings_link);
+		
+		$actions = array_merge($settings, $actions);
+			
+	}
+	
+	return $actions;
+	
+}
+add_filter( 'plugin_action_links', 'WPTime_twitter_profile_plugin_action_links', 10, 5 );
 
 ?>

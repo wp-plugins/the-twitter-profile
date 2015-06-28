@@ -1,5 +1,7 @@
 <?php
 
+	defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 	function WPTime_twitter_profile_settings() {
 		add_plugins_page( 'Twitter Profile Settings', 'Twitter Profile', 'update_core', 'WPTime_twitter_profile_settings', 'WPTime_twitter_profile_page');
 	}
@@ -10,6 +12,7 @@
 		register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_consumer_secret' );
 		register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_cache_time' );
 		register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_disable_emoji' );
+        register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_disable_font' );
 		register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_tweets_t' );
 		register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_following_t' );
 		register_setting( 'WPTime_twitter_profile_settings_fields', 'wpt_tp_followers_t' );
@@ -75,6 +78,18 @@
                                 	</fieldset>
 								</td>
                         	</tr>
+
+                            <tr>
+                                <th scope="row"><label for="wpt_tp_disable_font">Disable Font Style</label></th>
+                                <td>
+                                    <fieldset>
+                                        <legend class="screen-reader-text"><span>Disable Font Style</span></legend>
+                                        <label for="wpt_tp_disable_font">
+                                            <input name="wpt_tp_disable_font" type="checkbox" id="wpt_tp_disable_font" value="1" <?php checked( get_option('wpt_tp_disable_font'), 1, true ); ?>>Disable font style, will be display the widget using your theme font.
+                                        </label>
+                                    </fieldset>
+                                </td>
+                            </tr>
                             
                             <?php
                         	$wpt_tp_buy_extension_set  = '<tr>';

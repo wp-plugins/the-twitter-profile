@@ -1,5 +1,7 @@
 <?php
 
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 /* Uninstall Plugin */
 
 // if not uninstalled plugin
@@ -15,6 +17,7 @@ delete_option('wpt_tp_consumer_key');
 delete_option('wpt_tp_consumer_secret');
 delete_option('wpt_tp_cache_time');
 delete_option('wpt_tp_disable_emoji');
+delete_option('wpt_tp_disable_font');
 delete_option('wpt_tp_tweets_t');
 delete_option('wpt_tp_following_t');
 delete_option('wpt_tp_followers_t');

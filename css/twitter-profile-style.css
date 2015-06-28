@@ -283,34 +283,42 @@ h5.wpt-tp-screen-name{
 
 .wpt-tp-content ul li.wpt-tp-tweets:before, a.wpt-tp-tweets:before{
 	display:inline-block !important;
-	font-family:"fontello twitter profile plugin by Alobaidi";
-	content:"\e804";
+	font-family:"fontello twitter profile plugin by Alobaidi" !important;
+	content:"\e804" !important;
 	padding-right:5px;
 	color:#3B94D9 !important;
+	float: none !important;
+	margin: 0 !important;
 }
 
 .wpt-tp-content ul li.wpt-tp-location:before{
 	display:inline-block !important;
-	font-family:"fontello twitter profile plugin by Alobaidi";
-	content:"\e802";
+	font-family:"fontello twitter profile plugin by Alobaidi" !important;
+	content:"\e802" !important;
 	padding-right:5px;
 	color:#66757f !important;
+	float: none !important;
+	margin: 0 !important;
 }
 
 .wpt-tp-content ul li.wpt-tp-url:before{
 	display:inline-block !important;
-	font-family:"fontello twitter profile plugin by Alobaidi";
-	content:"\e800";
+	font-family:"fontello twitter profile plugin by Alobaidi" !important;
+	content:"\e800" !important;
 	padding-right:5px;
 	color:#66757f !important;
+	float: none !important;
+	margin: 0 !important;
 }
 
 .wpt-tp-content ul li.wpt-tp-joined:before{
 	display:inline-block !important;
-	font-family:"fontello twitter profile plugin by Alobaidi";
-	content:"\e801";
+	font-family:"fontello twitter profile plugin by Alobaidi" !important;
+	content:"\e801" !important;
 	padding-right:5px;
 	color:#66757f !important;
+	float: none !important;
+	margin: 0 !important;
 }
 
 .wpt_tp_emoji .emoji, .wpt_tp_emoji .wp-smiley{
