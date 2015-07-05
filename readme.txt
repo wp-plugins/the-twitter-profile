@@ -4,7 +4,7 @@ Donate link: http://j.mp/WPTime_donations
 Tags: twitter profile, twitter api, recent tweets, recent, tweets, embed, embedding, profile, api, css3, jquery, retina, responsive, emoji, rtl, image, images, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments, shortcode
 Requires at least: 3.0.0
 Tested up to: 4.2.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,10 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 * For more questions or help, [contact me](http://j.mp/1HVBgA6).
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Fixing problem in CSS Border radius and Box shadow.
 
 = 1.0.2 =
 

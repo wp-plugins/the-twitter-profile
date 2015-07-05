@@ -3,7 +3,7 @@
 Plugin Name: The Twitter Profile
 Plugin URI: http://j.mp/The_Twitter_Profile
 Description: Display your full twitter profile in sidebar easily, responsive and retina, recent tweets and emoji icons support, RTL support and texts translate ready.
-Version: 1.0.2
+Version: 1.0.3
 Author: Alobaidi
 Author URI: http://j.mp/1HVBgA6
 License: GPLv2 or later

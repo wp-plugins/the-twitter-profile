@@ -16,12 +16,12 @@
 	-webkit-background-size:100% 100% !important;
 	-o-background-size:100% 100% !important;
 	padding:10px;
-	box-shadow:0px 0px 100px 40px rgba(0,0,0,0.5) inset;
-	-webkit-box-shadow:0px 0px 100px 40px rgba(0,0,0,0.5) inset;
-	-moz-box-shadow:0px 0px 100px 40px rgba(0,0,0,0.5) inset;
-	border-radius:5px 5px 0 0;
-	-webkit-border-radius:5px 5px 0 0;
-	-moz-border-radius:5px 5px 0 0;
+	box-shadow:0px 0px 100px 40px rgba(0,0,0,0.5) inset !important;
+	-webkit-box-shadow:0px 0px 100px 40px rgba(0,0,0,0.5) inset !important;
+	-moz-box-shadow:0px 0px 100px 40px rgba(0,0,0,0.5) inset !important;
+	border-radius:5px 5px 0 0 !important;
+	-webkit-border-radius:5px 5px 0 0 !important;
+	-moz-border-radius:5px 5px 0 0 !important;
 }
 
 .wpt-tp-avatar-wrap{
@@ -198,9 +198,9 @@ h5.wpt-tp-screen-name{
 }
 
 .wpt-tp-content-wrap{
-	border-radius:0 0 5px 5px;
-	-webkit-border-radius:0 0 5px 5px;
-	-moz-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px !important;
+	-webkit-border-radius:0 0 5px 5px !important;
+	-moz-border-radius:0 0 5px 5px !important;
 	background-color:#fff;
 	line-height:1.5 !important;
 	font-size:14px !important;
