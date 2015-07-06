@@ -173,14 +173,14 @@
                 
             	<div class="tool-box">
 					<h3 class="title">Recommended Links</h3>
-					<p>Get collection of 87 WordPress themes for $69 only, a lot of features and free support! <a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=24967&url=19683" target="_blank">Get it now</a>.</p>
+					<p>Get collection of 87 WordPress themes for $69 only, a lot of features and free support! <a href="http://j.mp/ET_WPTime_ref_pl" target="_blank">Get it now</a>.</p>
 					<p>See also:</p>
 						<ul>
-							<li><a href="https://creativemarket.com/themes/wordpress?u=WPTime" target="_blank">Premium WordPress themes on CreativeMarket.</a></li>
-							<li><a href="http://themeforest.net/category/wordpress/blog-magazine?ref=Perso_themes" target="_blank">Premium WordPress themes on Themeforest.</a></li>
-							<li><a href="http://codecanyon.net/category/wordpress?ref=Perso_themes" target="_blank">Premium WordPress plugins on Codecanyon.</a></li>
+							<li><a href="http://j.mp/CM_WPTime" target="_blank">Premium WordPress themes on CreativeMarket.</a></li>
+							<li><a href="http://j.mp/TF_WPTime" target="_blank">Premium WordPress themes on Themeforest.</a></li>
+							<li><a href="http://j.mp/CC_WPTime" target="_blank">Premium WordPress plugins on Codecanyon.</a></li>
 						</ul>
-					<p><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=24967&url=19683" target="_blank"><img src="<?php echo plugins_url( '/banner/570x100.jpg', __FILE__ ); ?>"></a></p>
+					<p><a href="http://j.mp/ET_WPTime_ref_pl" target="_blank"><img src="<?php echo plugins_url( '/banner/570x100.jpg', __FILE__ ); ?>"></a></p>
 				</div>
                 
             </div>
