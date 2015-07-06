@@ -76,7 +76,7 @@ function WPTime_twitter_profile_plugin_row_meta( $links, $file ) {
 	if ( strpos( $file, 'the-twitter-profile.php' ) !== false ) {
 		
 		$new_links = array(
-						'<a href="http://j.mp/The_Twitter_Profile" target="_blank">Explanation Of Use</a>',
+						'<a href="http://j.mp/The_Twitter_Profile" target="_blank">Explanation of Use</a>',
 						'<a href="http://j.mp/WPTime_Buy_TP_RTE" target="_blank">Buy Recent Tweets Extension</a>',
 						'<a href="https://profiles.wordpress.org/alobaidi#content-plugins" target="_blank">More Plugins</a>',
 					);
