@@ -1,7 +1,7 @@
 === The Twitter Profile ===
 Contributors: Alobaidi
 Donate link: http://j.mp/WPTime_donations
-Tags: twitter profile, twitter api, recent tweets, recent, tweets, embed, embedding, profile, api, css3, jquery, retina, responsive, emoji, rtl, twitter widget, image, images, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments, shortcode
+Tags: twitter profile, twitter api, recent tweets, recent, tweets, embed, embedding, profile, api, css3, jquery, retina, responsive, emoji, rtl, twitter widget, twitter profile widget, image, images, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments, shortcode
 Requires at least: 3.0.0
 Tested up to: 4.3
 Stable tag: 1.0.3
