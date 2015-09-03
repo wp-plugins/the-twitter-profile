@@ -48,7 +48,8 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 
 ### About
 
-* [The plugin designed and developed by Alobaidi.](http://j.mp/1HVBgA6)
+* [The plugin designed and developed by Alobaidi.](http://wp-plugins.in)
+* [Follow me on Twitter.](http://wp-plugins.in/1SQld8g)
 
 ### More Plugins
 
@@ -73,7 +74,8 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 
 ### FAQ
 
-* For more questions or help, [contact me](http://j.mp/1HVBgA6).
+* For more questions or help, [contact me](http://wp-plugins.in).
+* [Or on Twitter.](http://wp-plugins.in/1L6zCZL)
 
 == Changelog ==
 
