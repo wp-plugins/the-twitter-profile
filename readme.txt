@@ -2,9 +2,9 @@
 Contributors: Alobaidi
 Donate link: http://j.mp/WPTime_donations
 Tags: twitter profile, twitter api, recent tweets, recent, tweets, embed, embedding, profile, api, css3, jquery, retina, responsive, emoji, rtl, twitter widget, twitter profile widget, image, images, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments, shortcode
-Requires at least: 3.0.0
+Requires at least: 3.1.0
 Tested up to: 4.3
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,7 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 10. Easy To Use.
 
 ### Live Demo
-* [http://j.mp/The_Twitter_Profile](http://j.mp/The_Twitter_Profile)
+* [http://wp-plugins.in/The_Twitter_Profile](http://wp-plugins.in/The_Twitter_Profile)
 
 ### Recent Tweets Extension
 * [Buy recent tweets extension for Twitter Profile plugin, the extension for $0.99 only.](http://j.mp/WPTime_Buy_TP_RTE)
@@ -46,14 +46,9 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 * [Premium WordPress themes on Themeforest.](http://j.mp/TF_WPTime)
 * [Premium WordPress plugins on Codecanyon.](http://j.mp/CC_WPTime)
 
-### About
-
-* [The plugin designed and developed by Alobaidi.](http://wp-plugins.in)
-* [Follow me on Twitter.](http://wp-plugins.in/1SQld8g)
-
 ### More Plugins
 
-* [My Plugins](https://profiles.wordpress.org/alobaidi/#content-plugins)
+* [My Plugins](https://profiles.wordpress.org/alobaidi#content-plugins)
 
 == Installation ==
 
@@ -62,22 +57,27 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 1. Upload 'the-twitter-profile' folder to the '/wp-content/plugins/' directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to Plugins > Twitter Profile.
-4. Enter your Consumer Key and Consumer Secret. [Get Your Consumer Key And Consumer Secret](http://j.mp/The_Twitter_Profile)
+4. Enter your Consumer Key and Consumer Secret. [Get Your Consumer Key And Consumer Secret](http://wp-plugins.in/The_Twitter_Profile)
 5. Go to Appearance > Widgets > Twitter Profile.
 6. Drag and drop Twitter Profile widget to your sidebar.
 7. Title field: enter your widget title.
 8. Username field: enter your username on twitter.
 9. Recent Tweets Count field: recent tweets will be working after buying the extension, [Buy Now](http://j.mp/WPTime_Buy_TP_RTE) for $0.99 only.
-10. [See full article about Twitter Profile plugin.](http://j.mp/The_Twitter_Profile)
+10. [Read full article about Twitter Profile plugin.](http://wp-plugins.in/The_Twitter_Profile)
 
 == Frequently Asked Questions ==
 
 ### FAQ
 
-* For more questions or help, [contact me](http://wp-plugins.in).
+* [Read](http://wp-plugins.in/The_Twitter_Profile)
+* For more questions or help, [contact me](http://wp-plugins.in/1XnA5Qr).
 * [Or on Twitter.](http://wp-plugins.in/1L6zCZL)
 
 == Changelog ==
+
+= 1.0.4 =
+
+* Fixing problems in CSS Border.
 
 = 1.0.3 =
 

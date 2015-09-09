@@ -47,7 +47,7 @@
                         		<th scope="row"><label for="wpt_tp_consumer_key">Consumer Key</label></th>
                             	<td>
                                     <input class="regular-text" name="wpt_tp_consumer_key" type="text" id="wpt_tp_consumer_key" value="<?php echo esc_attr( get_option('wpt_tp_consumer_key') ); ?>">
-                                    <p class="description">Enter your consumer key, <a href="http://wp-time.com/twitter-profile-wordpress-widget/" target="_blank">Get it</a>.</p>
+                                    <p class="description">Enter your consumer key, <a href="http://wp-plugins.in/The_Twitter_Profile" target="_blank">Get it</a>.</p>
 								</td>
                         	</tr>
                             
@@ -55,7 +55,7 @@
                         		<th scope="row"><label for="wpt_tp_consumer_secret">Consumer Secret</label></th>
                             	<td>
                                     <input class="regular-text" name="wpt_tp_consumer_secret" type="text" id="wpt_tp_consumer_secret" value="<?php echo esc_attr( get_option('wpt_tp_consumer_secret') ); ?>">
-                                    <p class="description">Enter your consumer secret, <a href="http://wp-time.com/twitter-profile-wordpress-widget/" target="_blank">Get it</a>.</p>
+                                    <p class="description">Enter your consumer secret, <a href="http://wp-plugins.in/The_Twitter_Profile" target="_blank">Get it</a>.</p>
 								</td>
                         	</tr>
                             

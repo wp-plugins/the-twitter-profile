@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: The Twitter Profile
-Plugin URI: http://j.mp/The_Twitter_Profile
+Plugin URI: http://wp-plugins.in/The_Twitter_Profile
 Description: Display your full twitter profile in sidebar easily, responsive and retina, recent tweets and emoji icons support, RTL support and texts translate ready.
-Version: 1.0.3
+Version: 1.0.4
 Author: Alobaidi
-Author URI: http://j.mp/1HVBgA6
+Author URI: http://wp-plugins.in
 License: GPLv2 or later
 */
 
@@ -76,7 +76,7 @@ function WPTime_twitter_profile_plugin_row_meta( $links, $file ) {
 	if ( strpos( $file, 'the-twitter-profile.php' ) !== false ) {
 		
 		$new_links = array(
-						'<a href="http://j.mp/The_Twitter_Profile" target="_blank">Explanation of Use</a>',
+						'<a href="http://wp-plugins.in/The_Twitter_Profile" target="_blank">Explanation of Use</a>',
 						'<a href="http://j.mp/WPTime_Buy_TP_RTE" target="_blank">Buy Recent Tweets Extension</a>',
 						'<a href="https://profiles.wordpress.org/alobaidi#content-plugins" target="_blank">More Plugins</a>',
 					);
