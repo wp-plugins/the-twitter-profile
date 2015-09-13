@@ -63,13 +63,14 @@ Display your full twitter profile in sidebar easily, responsive and retina, rece
 7. Title field: enter your widget title.
 8. Username field: enter your username on twitter.
 9. Recent Tweets Count field: recent tweets will be working after buying the extension, [Buy Now](http://j.mp/WPTime_Buy_TP_RTE) for $0.99 only.
-10. [Read full article about Twitter Profile plugin.](http://wp-plugins.in/The_Twitter_Profile)
+
+* [Read explanation of use](http://wp-plugins.in/The_Twitter_Profile)
 
 == Frequently Asked Questions ==
 
 ### FAQ
 
-* [Read](http://wp-plugins.in/The_Twitter_Profile)
+* [Read explanation of use](http://wp-plugins.in/The_Twitter_Profile)
 * For more questions or help, [contact me](http://wp-plugins.in/1XnA5Qr).
 * [Or on Twitter.](http://wp-plugins.in/1L6zCZL)
 
