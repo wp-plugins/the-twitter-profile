@@ -3,7 +3,7 @@ Contributors: Alobaidi
 Donate link: http://j.mp/WPTime_donations
 Tags: twitter profile, twitter api, recent tweets, recent, tweets, embed, embedding, profile, api, css3, jquery, retina, responsive, emoji, rtl, twitter widget, twitter profile widget, image, images, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments, shortcode
 Requires at least: 3.1.0
-Tested up to: 4.3
+Tested up to: 4.3.1
 Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
