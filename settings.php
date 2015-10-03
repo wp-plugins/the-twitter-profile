@@ -3,7 +3,7 @@
 	defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 	function WPTime_twitter_profile_settings() {
-		add_plugins_page( 'Twitter Profile Settings', 'Twitter Profile', 'update_core', 'WPTime_twitter_profile_settings', 'WPTime_twitter_profile_page');
+		add_plugins_page( 'Twitter Profile Settings', 'Twitter Profile', 'manage_options', 'WPTime_twitter_profile_settings', 'WPTime_twitter_profile_page');
 	}
 	add_action( 'admin_menu', 'WPTime_twitter_profile_settings' );
 	
